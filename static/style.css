@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.main {
+    width: 100%;
+    background-color: #7e22ce;
+    height: 25%;
+}
+
+.head {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+h1 {
+    padding-left: 33%;
+}
