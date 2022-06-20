@@ -1,10 +1,6 @@
 from flask import Flask, request, render_template
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import nltk
-from string import punctuation
-import re
 from nltk.corpus import stopwords
 
 nltk.download('stopwords')
@@ -25,9 +21,6 @@ def my_form_post():
     text1 = request.form['text1'].lower()
     
     text_final = ''.join(c for c in text1 if not c.isdigit())
-    
-    #remove punctuations
-    #text3 = ''.join(c for c in text2 if c not in punctuation)
         
     #remove stopwords    
     processed_doc1 = ' '.join([word for word in text_final.split() if word not in stop_words])
