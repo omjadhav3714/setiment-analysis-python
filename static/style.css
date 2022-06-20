@@ -8,9 +8,42 @@
 }
 
 .main {
-    width: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: auto;
+
     background-color: #7e22ce;
+    box-shadow: 0 7px 10px 0 rgb(0 0 0 / 20%), 0 6px 16px 0 rgb(0 0 0 / 19%);
     height: 25%;
+    font-family: "Roboto", sans-serif;
+}
+.main1{
+    width: 80%;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+    margin-left: auto;
+    height: 17vh;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #7e22ce;
+    box-shadow: 0 7px 10px 0 rgb(0 0 0 / 20%), 0 6px 16px 0 rgb(0 0 0 / 19%);
+    
+    font-family: "Roboto", sans-serif;
+}
+.box{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .head {
@@ -22,4 +55,16 @@
 
 h1 {
     padding-left: 33%;
+}
+.inpbox{
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
 }
